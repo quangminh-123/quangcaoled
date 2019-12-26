@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1100px) {
+    .logo img {
+        width: 120px;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .item-info-text-pro-mqn-main h1 {
+        font-size: 20px;
+    }
+
+    .item-info-text-pro-mqn-main p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .img-content-banner-pro-mqn img {
+        margin-top: 65px;
+    }
+
+    .item-info-hethong-pro-mqn p {
+        line-height: 25px;
+    }
+
+    .item-footer-info-pro-mqn-main2 img {
+        width: 35px;
+    }
+
+    .item-img-pro-baocao img {
+        height: 420px;
+        object-fit: cover;
+    }
+
+
+    .content-info-form-baocao h1{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .item-info-text-pro-mqn-main p {
+        font-size: 14px;
+    }
+
+    .item-info-text-pro-mqn-main h1 {
+        font-size: 18px;
+    }
+
+    .logo img {
+        margin-right: 15px;
+        margin-left: -30px;
+    }
+
+    .item-img-pro-icon-header-top-mqn p {
+        width: 230px;
+        font-size: 12px;
+    }
+
+    .item-footer-info-pro-mqn-main h1 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .item-info-text-pro-mqn-main h1 {
+        position: relative;
+        top: -10px;
+    }
+
+    .item-info-text-pro-mqn-main p{
+        line-height: 18px;
+        margin-top: 0px;
+    }
+}

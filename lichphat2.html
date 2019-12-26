@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lịch phát</title>
+	<link rel="stylesheet" href="https://kendo.cdn.telerik.com/2019.3.1023/styles/kendo.default-v2.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/mystyle.css" />
+	<link rel="stylesheet" href="css/mob.css"/>
+</head>
+
+<body id="top">
+
+	<div id="text-banner-top-auto">
+		<p data-spy="affix" data-offset-top="0">
+			<marquee> <i class="fa fa-star" aria-hidden="true"> </i> Lịch phát sóng Media: Sáng: 6h đến 12h - Chiều: 15h
+				đến 22h <i class="fa fa-star" aria-hidden="true"></i></marquee>
+		</p>
+	</div>
+
+	<div id="header-top-man-mqn">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="item-img-pro-icon-header-top-mqn left-20">
+						<img src="img/srv_1.png" alt="">
+						<p><b>Vận chuyển trên toàn quốc</b></p>
+						<p>Miễn phí trên địa bàn hà nội</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-img-pro-icon-header-top-mqn">
+						<img src="img/srv_2.png" alt="">
+						<p><b>Cam kết giá rẻ</b></p>
+						<p>hỗ trợ tư vấn 24/7</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-img-pro-icon-header-top-mqn">
+						<img src="img/srv_3.png" alt="">
+						<p><b>Cam kết chất lượng</b></p>
+						<p>hoàn tiền 100% nếu có lỗi</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<nav class="navbar navbar-default" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li ><a href="index.html">trang chủ</a></li>
+				<li><a href="baocao.html">báo cáo</a></li>
+				<li class="active"><a href="lichphat.html">lịch phát</a></li>
+				<li><a href="baogia.html">nhận báo giá</a></li>
+				<li><a href="vitri.html">vị trí</a></li>
+				<li><a href="tructuyen.html">trực tuyến</a></li>
+			</ul>
+						<ul class="nav navbar-nav navbar-right">
+				<li><button class="btn" data-toggle="modal" data-target="#singIn"><i class="fa fa-user"
+							aria-hidden="true"> </i>Đăng nhập</button></li>
+				<div id="singIn" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">Đăng nhập tài khoản</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="" method="POST" role="form">
+									<div class="form-group">
+										<label for="account">Tài khoản</label>
+										<input type="text" class="form-control" id="account" placeholder="Tài khoản"
+											required>
+									</div>
+									<div class="form-group">
+										<label for="psw">Mật khẩu</label>
+										<input type="password" class="form-control" id="psw" placeholder="Mật khẩu"
+											required>
+									</div>
+							</div>
+							<div class="modal-footer">
+								<input type="submit" value="Đăng nhập" class="btn btn-primary pull-right">
+							</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="img/Unilight-Outdoor-LED-display-Billboard-advertising-video-display.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="img/Unilight-smart-LED-poster.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="img/Unilight-Sport-stadium-LED-display.jpg" alt="">
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span
+				class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span
+				class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+
+
+	<div id="example">
+		<h1>Lịch phát trực tuyến các ngày</h1>
+		<div id="scheduler"></div>
+	</div>
+
+
+	<div id="banner-poster-quangcao-mqn">
+		<img src="img/banner.jpg" alt="">
+	</div>
+
+
+	<div id="banner-video-quang-cao">
+		<div class="container-fuild">
+			<div class="title-banner-header-pro-mqn-main">
+				<h1>Một số công trình tiêu biểu</h1>
+			</div>
+			<div class="sliderImagesCongTrinh">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-congtrinh">
+						<img src="img/2019040921261338.jpg" alt="">
+						<p>Vincom Mall Time City - Hà Nội</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-congtrinh">
+						<img src="img/4hf.jpg" alt="">
+						<p>Vincom Mall Time City - Hà Nội</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-congtrinh">
+						<img src="img/fina.png" alt="">
+						<p>Vincom Mall Time City - Hà Nội</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-congtrinh">
+						<img src="img/2019040921261338.jpg" alt="">
+						<p>Vincom Mall Time City - Hà Nội</p>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="item-congtrinh">
+						<img src="img/2019040921261338.jpg" alt="">
+						<p>Vincom Mall Time City - Hà Nội</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer-pro-mqn-main">
+		<div class="container-fuild">
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+				<div class="item-footer-info-pro-mqn-main">
+					<h1>CÔNG TY TNHH TẬP ĐOÀN ĐẦU TƯ CHÂU Á</h1>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> 82 Bùi Thị Xuân, Tp. Quy Nhơn</p>
+					<p><i class="fa fa-user" aria-hidden="true"></i>Mr.Đạt</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>090 113 4553</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i>dat.tran@asiamedia.vn</p>
+					<p><i class="fab fa-skype"></i>tranquocdat0809</p>
+				</div>
+				<div class="item-footer-info-pro-mqn-main2">
+					<h1>SOCIAL MEDIA</h1>
+					<ul>
+						<li><img src="img/if_facebook_2062074.png" alt=""></li>
+						<li><img src="img/if_google_20620771.png" alt=""></li>
+						<li><img src="img/if_Instagram_2062078.png" alt=""></li>
+						<li><img src="img/if_skype_2062088.png" alt=""></li>
+						<li><img src="img/if_you_Tube_2062100.png" alt=""></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+				<div class="item-footer-info-pro-mqn-main">
+					<h1>CÔNG TY CỔ PHẦN XÂY DỰNG VÀ CƠ KHÍ THÀNH ĐẠT</h1>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> 9-25 Phan Bá vành, Tp Quy Nhơn</p>
+					<p><i class="fa fa-user" aria-hidden="true"></i>Mr.Thế</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>0987 696 966</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i>minhthe@vancong.com.vn</p>
+					<p><i class="fab fa-skype"></i>nguyenminhthe09</p>
+				</div>
+				<div class="item-footer-info-pro-mqn-main2">
+					<h1>Dịch vụ thanh toán</h1>
+					<ul>
+						<li><img src="img/icon1.png" alt=""></li>
+						<li><img src="img/icon2.png" alt=""></li>
+						<li><img src="img/icon3.png" alt=""></li>
+						<li><img src="img/icon4.png" alt=""></li>
+						<li><img src="img/icon5.png" alt=""></li>
+					</ul>
+					<img src="img/icon8.png" alt="">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+				<div class="item-footer-info-pro-mqn-main">
+					<h1>CÔNG TY TNHH MỸ THUẬT QUẢNG CÁO VÂN CÔNG</h1>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i> 44 Võ Thị Sáu, Tp. Quy Nhơn</p>
+					<p><i class="fa fa-user" aria-hidden="true"></i>Mr.Tính</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>0915 768 765</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i>tinh.tran@vancong.com.vn</p>
+					<p><i class="fab fa-skype"></i>tinh.vc</p>
+				</div>
+				<div class="item-footer-info-pro-mqn-main2">
+					<h1>Ứng dụng điện thoại</h1>
+					<ul>
+						<li><img src="img/icon6.png" alt=""></li>
+						<li><img src="img/icon7.png" alt=""></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+				<div class="item-footer-info-pro-mqn-main">
+					<h1>Văn Phòng đại diện Singapore</h1>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i>+410 North Bridge Road, Singapore 188726</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> (+65)88186655</p>
+					<p><i class="fab fa-skype"></i> Kelly Duong</p>
+					<p>My wechat/whatsapp/zalo/viber</p>
+					<p><i class="fa fa-envelope" aria-hidden="true"></i> kelly.duong@asiamedia.vn</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div id="copyright-pro-mqn-main">
+		<div class="container">
+			<p>Copyright © 2019, Asia Media Viet Nam, Ltd All Rights Reserved</p>
+		</div>
+	</div>
+
+	<a href="#top" class="buttonTopPro"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+</body>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+<script>
+
+	</script>
+	    <script src="https://kendo.cdn.telerik.com/2019.3.1023/js/jquery.min.js"></script>
+		<script src="https://kendo.cdn.telerik.com/2019.3.1023/js/kendo.all.min.js"></script>
+		<script src="https://kendo.cdn.telerik.com/2019.3.1023/js/kendo.timezones.min.js"></script>
+</html>
