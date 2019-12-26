@@ -265,12 +265,19 @@ a{
 	letter-spacing: 0.5px;
 }
 
+.item-footer-info-pro-mqn-main2 ul{
+	margin-left: -44px;
+}
+
 .item-footer-info-pro-mqn-main2 ul li {
 	float: left;
 	list-style-type: none;
 	margin-right: 10px;
 }
 
+.item-footer-info-pro-mqn-main2 img{
+	margin-bottom: 20px;
+}
 #copyright-pro-mqn-main {
 	overflow: hidden;
 	clear: both;
